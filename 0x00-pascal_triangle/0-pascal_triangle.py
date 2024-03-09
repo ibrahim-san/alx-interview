@@ -7,7 +7,10 @@ from math import comb
 
 def pascal_triangle(n):
     """
-    This function returns a pascal triangle of height n in the form of a list of integer lists
+        returns a list of lists of
+        integers representing
+        the Pascal’s triangle of n
+        Returns an empty list if n <= 0
     """
     if n <= 0:
         return []
