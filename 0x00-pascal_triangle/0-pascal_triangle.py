@@ -1,3 +1,8 @@
+#!/usr/bin/python3
+"""
+Pascal's Triangle
+"""
+
 from math import comb
 
 def pascal_triangle(n):
